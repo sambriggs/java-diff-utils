@@ -48,7 +48,8 @@ public class StringUtills {
      * @return
      */
     public static String htmlEntites(String str) {
-        return str.replace("<", "&lt;").replace(">", "&gt;");
+        //return str.replace("<", "&lt;").replace(">", "&gt;");
+    	return str;
     }
     
     public static String normalize(String str) {
